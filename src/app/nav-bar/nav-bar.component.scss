@@ -1,0 +1,70 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0rem;
+  position: absolute;
+  width: 606px;
+  height: 2.5rem;
+  left: 25rem;
+  top: 50px;
+  background: rgba(118, 118, 128, 0.12);
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+nav a {
+  line-height: 40px;
+  height: 100%;
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: -0.078px;
+}
+
+nav .animation {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all 0.5s ease 0s;
+  border-radius: 8px;
+  text-align: center;
+  font-family: "SF Pro Text";
+}
+
+a:nth-child(1) {
+  width: 100px;
+}
+
+a:nth-child(2) {
+  width: 110px;
+}
+
+a:nth-child(3) {
+  width: 100px;
+}
+
+a:nth-child(4) {
+  width: 160px;
+}
+
+a:nth-child(5) {
+  width: 120px;
+}
+
+a:hover {
+  background-color: #ffffff;
+}
+
+#a:onclick {
+  background-color: #ffffff;
+}
